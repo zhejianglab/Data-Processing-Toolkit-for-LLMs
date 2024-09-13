@@ -1,0 +1,15 @@
+source_dir: data/pretrain/control
+# source_dir: /home/zhouzihao/data-manage/elasticsearch/test
+suffix_list:
+  - json
+  - jsonl
+index_name: control_pretrain
+metadata: # 在原本json的基础上增加的元数据
+  stage: washed # 有多个阶段：origin原始的 washed清洗后的
+  # lang: en # 标记语种   
+# id有两种方式：（1）random 即不传递id，el自动随机生成 （2）continue 按照数字顺序设置id
+# id: continue
+
+
+
+

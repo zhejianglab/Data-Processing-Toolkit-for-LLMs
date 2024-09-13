@@ -1,0 +1,6 @@
+index_name: control_pretrain
+number_of_shards: 2
+number_of_replicas: 1
+all_fields_text: true # 是否把所有字段都作为text类型。即使为true,对在mapping_fields中指明类型的字段也不生效。
+comment: The index save the control system data
+use_ik: true # 是否设置index的默认分词器为ik分词器。对于中文一般都需要设置。

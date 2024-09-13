@@ -1,0 +1,13 @@
+index_name: test
+# 要更新的文档id，只针对单条doc，如果定义了id，则query失效
+# id: 0
+# 用于查询的字段
+# query:
+# 要更新的内容
+query: all
+doc:
+  update: all changed from python 
+
+
+
+

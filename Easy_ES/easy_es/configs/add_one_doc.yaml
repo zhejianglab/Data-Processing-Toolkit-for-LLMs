@@ -1,0 +1,10 @@
+index_name: test
+doc:
+  title: test3
+  text: This is a text for test, num is 3
+id: continue
+# 可以加id，id有三种方式：（1）random es随机生成 （2）continue 在原有index基础上增加 （3）除以上两种外均视为指定id
+# id: 1
+
+
+

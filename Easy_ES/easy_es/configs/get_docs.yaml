@@ -1,0 +1,13 @@
+target_path: elasticsearch/test/test_zh.jsonl
+# 当数据规模太大不适合放在一个文件中时，可以提供target_dir，自动把文件分为若干个part放在target_dir中
+# 当target_path和target_dir同时存在时，target_dir不生效
+# target_dir: elasticsearch/test
+data_append: true
+index_name: aerospace_manual
+# max_num: unlimited
+max_num: 50
+timeout: 10m
+query: 
+  stage: washed # 有多个阶段：origin原始的 washed清洗后的
+  lang: zh # 标记语种
+  text: 飞机控制

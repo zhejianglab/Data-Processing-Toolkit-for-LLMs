@@ -1,0 +1,19 @@
+step_list:
+  - query
+  - search
+  - crawl
+
+log_dir: /home/zhouzihao/one_click_crawler/demo/logs
+logger_name: query
+ 
+query:
+  content: "I am the game organizer of StarCraft 2 and I need to test some players' understanding of this game. Please help me write some questions?"
+  choose_model: gpt-4
+  query_res_path: /home/zhouzihao/one_click_crawler/demo/data/query_res.jsonl
+
+search:
+  search_res_path: /home/zhouzihao/one_click_crawler/demo/data/search_res.jsonl
+
+crawl:
+  crawl_data_dir: /home/zhouzihao/one_click_crawler/demo/data
+  crawl_res_path: /home/zhouzihao/one_click_crawler/demo/data/crawl_res.jsonl
