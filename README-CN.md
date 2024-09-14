@@ -2,11 +2,11 @@
 ## 概述
 由之江实验室发布的**大模型训练数据处理工具包**，包含大模型训练中需要的数据采集与处理工具，解决大模型训练的各类垂直领域数据准备难题。本项目旨在帮助大模型研究人员提高大模型数据准备效率，降低数据集构建成本。
 
-当前版本已发布的数据处理工具包括：
-- 基于学科分类的垂域数据集采集（[Classifier](./Classifier/Readme.txt)）
-- 基于大模型提示与搜索的网页数据采集（[One_Click_Crawler](./One_Click_Crawler/Readme.md)）
-- 自研的集成OCR工具集（[DataPrep4LLM_Algos](./DataPrep4LLM_Algos/README.md)）
-- ES数据库管理工具（[Easy_ES](./Easy_ES/Readme.md)）
+当前版本已发布的数据处理工具包包括：
+- `基于学科分类的垂域数据集采集工具`（[Classifier](./Classifier/Readme.txt)）
+- `基于大模型提示与搜索的网页数据采集工具`（[One_Click_Crawler](./One_Click_Crawler/Readme.md)）
+- `自研的集成OCR工具`（[DataPrep4LLM_Algos](./DataPrep4LLM_Algos/README.md)）
+- `ES数据库管理工具`（[Easy_ES](./Easy_ES/Readme.md)）
 
 ## 引用
 如果您在研究中使用了该工具包，请按照以下格式引用：
