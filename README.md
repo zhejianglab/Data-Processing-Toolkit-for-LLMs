@@ -8,7 +8,7 @@
 The *Data Processing Toolkit for LLMs*, published by Zhejiang Lab, contains tools designed for the data collection and processing to train LLMs. This toolkit is engineered to address the challenges associated with data preparation across diverse domains of LLM training. This project aims to help researchers enhance the efficiency of data preparation and reduce the cost of data set construction.
 
 The data processing toolkit released in the current version includes:
-- Vertical dataset collection tool based on subject classification ([Subject_Classifier](./Subject_Classifier/README.md)).
+- Vertical dataset collection tool based on subject classification ([Subject_Classifier](./Subject_Classifier/README.md))
 - Web data collection tool based on large model prompt and search ([One_Click_Crawler](./One_Click_Crawler/Readme.md))
 - Self-developed integrated OCR tool ([DataPrep4LLM_Algos](./DataPrep4LLM_Algos/README.md))
 - ES database management tool ([Easy_ES](./Easy_ES/Readme.md))
