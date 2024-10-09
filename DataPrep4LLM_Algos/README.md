@@ -18,8 +18,6 @@
 [surya](https://github.com/VikParuchuri/surya) 阅读顺序预测模型
 [阅读顺序预测](https://huggingface.co/vikp/surya_order)
 
-[PaddleOCR](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_infer.tar)
-
 模型放置路径如下所示：
 ```
 models
@@ -36,6 +34,10 @@ models
 │       ├── tokenizer.jsontokenizer_config.json
 │       └── unimernet_base.pth // unimernet原仓库的unimernet_base.pth已改名为pytorch_model.pth，重命名即可。
 ├── PaddleOCR
+│   ├── ch_ppocr_mobile_v2.0_cls_infer // https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_infer.tar
+│   │   ├── inference.pdiparams
+│   │   ├── inference.pdiparams.info
+│   │   └── inference.pdmodel  
 │   ├── ch_PP-OCRv3_det_infer // https://paddleocr.bj.bcebos.com/PP-OCRv3/chinese/ch_PP-OCRv3_det_infer.tar
 │   │   ├── inference.pdiparams
 │   │   ├── inference.pdiparams.info
